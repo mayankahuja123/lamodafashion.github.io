@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+ 
+/*body {
+  font-family: Arial, Helvetica, sans-serif;
+}*/
+
+/* Style the header */
+header {
+  background-color: black;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  height:300px;
+ 
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 50%;
+  height: 540px; /* only for demonstration, should be removed */
+  background: #990099;
+  padding: 20px;
+  
+}
+.hero-image {
+  background-image: url("collage.jpg");
+  background-color: #cccccc;
+  height: 540px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+/* Style the list inside the menu */
+/*nav ul {
+  list-style-type: none;
+  padding: 0;
+}*/
+
+article {
+  float: right;
+  padding: 20px;
+  width: 50%;
+  
+  height: 540px; /* only for demonstration, should be removed */
+  background-color:purple;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: violet;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  height:100px
+}
+
+
+.button1 {
+  background-color: purple; 
+  border: none;
+  border-radius:8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  margin-right:10px;
+  font-size: 16px;
+  width:150px
+}
+
+.button3 {
+  background-color: purple; 
+  border: none;
+  border-radius:8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  margin-left:200px;
+  font-size: 16px;
+  width:150px
+}
+.button2 {
+  background-color: purple; 
+  border: none;
+  border-radius:8px;
+  color: white;
+ 
+  text-align: center;
+  text-decoration: none;
+ 
+  margin-left:40px;
+ 
+  font-size: 16px;
+  padding:15px 32px;
+  width:150px;
+  height:200px;
+}
+#myVideo {
+  
+  min-width: 100px; 
+  min-height: 100px;
+}
+.button2:hover, .button3:hover {
+  background-color: violet;
+}
+.button1:hover {
+  background-color: violet;
+}
+
+</style>
+</head>
+<body>
+
+
+
+<header>
+
+
+ <!--<a href="#" class="button1" style="float:right"></a>*/-->
+ <a href="about.html" class="button1" style="float:left">About</a>
+ <a href="SignIn.html" class="button1" style="float:right">Sign in</a>  
+ <a href = "SignUp.html" class="button1" style="float:right">Sign up</a>
+ <br>
+ <h2><font color=purple face="Algerian">La' Moda</font></h2>
+ <hr>
+</header>
+
+<section>
+  <nav class="hero-image">
+   
+      
+    
+  </nav>
+  
+  <article>
+   <center>
+   <video autoplay muted loop id="myVideo">
+   <source src="m.mp4" type="video/mp4">
+   </video>
+   </center>   
+   <br>
+   <br>
+  
+    <font size="20px" >   
+     "Style is a way to say who you are without having to speak."
+    </font>
+  </article>
+  
+</section>
+ 
+<footer>
+  <br>
+ <br>
+ <font style="float:right;color:purple">Copyrights 2018-19</font>
+</footer>
+
+</body>
+</html>
